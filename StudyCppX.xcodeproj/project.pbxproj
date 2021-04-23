@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F6E5FCBA2633170700FAB8FD /* StudyCpp01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCpp01; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E5FCBA2633170700FAB8FD /* StudyCppX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCppX; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E5FCBD2633170700FAB8FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		F6E5FCB12633170700FAB8FD = {
 			isa = PBXGroup;
 			children = (
-				F6E5FCBC2633170700FAB8FD /* StudyCpp01 */,
+				F6E5FCBC2633170700FAB8FD /* StudyCppX */,
 				F6E5FCBB2633170700FAB8FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		F6E5FCBB2633170700FAB8FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6E5FCBA2633170700FAB8FD /* StudyCpp01 */,
+				F6E5FCBA2633170700FAB8FD /* StudyCppX */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6E5FCBC2633170700FAB8FD /* StudyCpp01 */ = {
+		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
 				F6E5FCBD2633170700FAB8FD /* main.cpp */,
 			);
-			path = StudyCpp01;
+			path = StudyCppX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6E5FCB92633170700FAB8FD /* StudyCpp01 */ = {
+		F6E5FCB92633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6E5FCC12633170700FAB8FD /* Build configuration list for PBXNativeTarget "StudyCpp01" */;
+			buildConfigurationList = F6E5FCC12633170700FAB8FD /* Build configuration list for PBXNativeTarget "StudyCppX" */;
 			buildPhases = (
 				F6E5FCB62633170700FAB8FD /* Sources */,
 				F6E5FCB72633170700FAB8FD /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = StudyCpp01;
+			name = StudyCppX;
 			productName = StudyCpp01;
-			productReference = F6E5FCBA2633170700FAB8FD /* StudyCpp01 */;
+			productReference = F6E5FCBA2633170700FAB8FD /* StudyCppX */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F6E5FCB52633170700FAB8FD /* Build configuration list for PBXProject "StudyCpp01" */;
+			buildConfigurationList = F6E5FCB52633170700FAB8FD /* Build configuration list for PBXProject "StudyCppX" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6E5FCB92633170700FAB8FD /* StudyCpp01 */,
+				F6E5FCB92633170700FAB8FD /* StudyCppX */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6E5FCB52633170700FAB8FD /* Build configuration list for PBXProject "StudyCpp01" */ = {
+		F6E5FCB52633170700FAB8FD /* Build configuration list for PBXProject "StudyCppX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6E5FCBF2633170700FAB8FD /* Debug */,
@@ -266,7 +266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6E5FCC12633170700FAB8FD /* Build configuration list for PBXNativeTarget "StudyCpp01" */ = {
+		F6E5FCC12633170700FAB8FD /* Build configuration list for PBXNativeTarget "StudyCppX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6E5FCC22633170700FAB8FD /* Debug */,
