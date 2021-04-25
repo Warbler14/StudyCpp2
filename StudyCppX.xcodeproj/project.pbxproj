@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6E5FCBE2633170700FAB8FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E5FCBD2633170700FAB8FD /* main.cpp */; };
+		F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9881A26354FF5002D5CB6 /* main.cpp */; };
+		F6B988282635530D002D5CB6 /* TestTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* TestTime.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F6B9881A26354FF5002D5CB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6B988252635530D002D5CB6 /* TestTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestTime.cpp; sourceTree = "<group>"; };
+		F6B988272635530D002D5CB6 /* TestTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestTime.hpp; sourceTree = "<group>"; };
 		F6E5FCBA2633170700FAB8FD /* StudyCppX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCppX; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6E5FCBD2633170700FAB8FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
-				F6E5FCBD2633170700FAB8FD /* main.cpp */,
+				F6B988252635530D002D5CB6 /* TestTime.cpp */,
+				F6B988272635530D002D5CB6 /* TestTime.hpp */,
+				F6B9881A26354FF5002D5CB6 /* main.cpp */,
 			);
 			path = StudyCppX;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E5FCBE2633170700FAB8FD /* main.cpp in Sources */,
+				F6B988282635530D002D5CB6 /* TestTime.cpp in Sources */,
+				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
