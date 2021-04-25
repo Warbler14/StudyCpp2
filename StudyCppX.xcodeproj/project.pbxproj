@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9881A26354FF5002D5CB6 /* main.cpp */; };
 		F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* PrintTime.cpp */; };
+		F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9883926359906002D5CB6 /* GuessGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		F6B9881A26354FF5002D5CB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6B988252635530D002D5CB6 /* PrintTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTime.cpp; sourceTree = "<group>"; };
 		F6B988272635530D002D5CB6 /* PrintTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintTime.hpp; sourceTree = "<group>"; };
+		F6B9883926359906002D5CB6 /* GuessGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GuessGame.cpp; sourceTree = "<group>"; };
+		F6B9883A26359906002D5CB6 /* GuessGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GuessGame.hpp; sourceTree = "<group>"; };
 		F6E5FCBA2633170700FAB8FD /* StudyCppX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCppX; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,6 +53,15 @@
 			path = ctime;
 			sourceTree = "<group>";
 		};
+		F6B98838263598E1002D5CB6 /* guessGame */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9883926359906002D5CB6 /* GuessGame.cpp */,
+				F6B9883A26359906002D5CB6 /* GuessGame.hpp */,
+			);
+			path = guessGame;
+			sourceTree = "<group>";
+		};
 		F6E5FCB12633170700FAB8FD = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +81,7 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
+				F6B98838263598E1002D5CB6 /* guessGame */,
 				F6B9883226355F50002D5CB6 /* ctime */,
 				F6B9881A26354FF5002D5CB6 /* main.cpp */,
 			);
@@ -133,6 +146,7 @@
 			files = (
 				F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */,
 				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
+				F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

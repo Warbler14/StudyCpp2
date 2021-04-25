@@ -7,13 +7,18 @@
 
 #include <iostream>
 #include "ctime/PrintTime.hpp"
+#include "guessGame/GuessGame.hpp"
 
 
 int main(int argc, const char * argv[]) {
     
     
-    PrintTime printTime;
-    printTime.print();
+//    PrintTime printTime;
+//    printTime.print();
+    
+    GuessGame guessGame;
+    guessGame.start();
+    
     
     
     return 0;
