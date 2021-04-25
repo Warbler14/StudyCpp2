@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9881A26354FF5002D5CB6 /* main.cpp */; };
-		F6B988282635530D002D5CB6 /* TestTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* TestTime.cpp */; };
+		F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* PrintTime.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		F6B9881A26354FF5002D5CB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F6B988252635530D002D5CB6 /* TestTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestTime.cpp; sourceTree = "<group>"; };
-		F6B988272635530D002D5CB6 /* TestTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestTime.hpp; sourceTree = "<group>"; };
+		F6B988252635530D002D5CB6 /* PrintTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTime.cpp; sourceTree = "<group>"; };
+		F6B988272635530D002D5CB6 /* PrintTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintTime.hpp; sourceTree = "<group>"; };
 		F6E5FCBA2633170700FAB8FD /* StudyCppX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyCppX; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6B9883226355F50002D5CB6 /* ctime */ = {
+			isa = PBXGroup;
+			children = (
+				F6B988252635530D002D5CB6 /* PrintTime.cpp */,
+				F6B988272635530D002D5CB6 /* PrintTime.hpp */,
+			);
+			path = ctime;
+			sourceTree = "<group>";
+		};
 		F6E5FCB12633170700FAB8FD = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +69,7 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
-				F6B988252635530D002D5CB6 /* TestTime.cpp */,
-				F6B988272635530D002D5CB6 /* TestTime.hpp */,
+				F6B9883226355F50002D5CB6 /* ctime */,
 				F6B9881A26354FF5002D5CB6 /* main.cpp */,
 			);
 			path = StudyCppX;
@@ -123,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B988282635530D002D5CB6 /* TestTime.cpp in Sources */,
+				F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */,
 				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

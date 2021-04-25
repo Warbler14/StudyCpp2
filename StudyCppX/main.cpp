@@ -6,14 +6,14 @@
 //
 
 #include <iostream>
-#include "TestTime.hpp"
+#include "ctime/PrintTime.hpp"
 
 
 int main(int argc, const char * argv[]) {
     
     
-    TestTime testTime;
-    testTime.print();
+    PrintTime printTime;
+    printTime.print();
     
     
     return 0;
