@@ -30,7 +30,7 @@ void GuessGame::end() {
     if(secretNum == guess) {
         cout << "You win" << endl;
     } else {
-        cout << "You fail" << endl;
+        cout << "You lose" << endl;
     }
     
 }
