@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6822B722639C23E00438A90 /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6822B702639C23E00438A90 /* Print.cpp */; };
 		F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9881A26354FF5002D5CB6 /* main.cpp */; };
 		F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* PrintTime.cpp */; };
 		F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9883926359906002D5CB6 /* GuessGame.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F6822B702639C23E00438A90 /* Print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print.cpp; sourceTree = "<group>"; };
+		F6822B712639C23E00438A90 /* Print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print.hpp; sourceTree = "<group>"; };
 		F6B9881A26354FF5002D5CB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6B988252635530D002D5CB6 /* PrintTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTime.cpp; sourceTree = "<group>"; };
 		F6B988272635530D002D5CB6 /* PrintTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintTime.hpp; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6822B6F2639C21F00438A90 /* print */ = {
+			isa = PBXGroup;
+			children = (
+				F6822B702639C23E00438A90 /* Print.cpp */,
+				F6822B712639C23E00438A90 /* Print.hpp */,
+			);
+			path = print;
+			sourceTree = "<group>";
+		};
 		F6B9883226355F50002D5CB6 /* ctime */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
+				F6822B6F2639C21F00438A90 /* print */,
 				F6B98838263598E1002D5CB6 /* guessGame */,
 				F6B9883226355F50002D5CB6 /* ctime */,
 				F6B9881A26354FF5002D5CB6 /* main.cpp */,
@@ -147,6 +160,7 @@
 				F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */,
 				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
 				F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */,
+				F6822B722639C23E00438A90 /* Print.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
