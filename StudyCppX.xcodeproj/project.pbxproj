@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F6822B722639C23E00438A90 /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6822B702639C23E00438A90 /* Print.cpp */; };
 		F6A8D313263E273D000FE4EC /* LogTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A8D311263E273D000FE4EC /* LogTest.cpp */; };
+		F6A8D31C263ED910000FE4EC /* MyMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A8D31A263ED910000FE4EC /* MyMath.cpp */; };
 		F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9881A26354FF5002D5CB6 /* main.cpp */; };
 		F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B988252635530D002D5CB6 /* PrintTime.cpp */; };
 		F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B9883926359906002D5CB6 /* GuessGame.cpp */; };
@@ -31,6 +32,8 @@
 		F6822B712639C23E00438A90 /* Print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print.hpp; sourceTree = "<group>"; };
 		F6A8D311263E273D000FE4EC /* LogTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogTest.cpp; sourceTree = "<group>"; };
 		F6A8D312263E273D000FE4EC /* LogTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LogTest.hpp; sourceTree = "<group>"; };
+		F6A8D31A263ED910000FE4EC /* MyMath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyMath.cpp; sourceTree = "<group>"; };
+		F6A8D31B263ED910000FE4EC /* MyMath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyMath.hpp; sourceTree = "<group>"; };
 		F6B9881A26354FF5002D5CB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6B988252635530D002D5CB6 /* PrintTime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTime.cpp; sourceTree = "<group>"; };
 		F6B988272635530D002D5CB6 /* PrintTime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintTime.hpp; sourceTree = "<group>"; };
@@ -66,6 +69,15 @@
 				F6A8D312263E273D000FE4EC /* LogTest.hpp */,
 			);
 			path = logTest;
+			sourceTree = "<group>";
+		};
+		F6A8D319263ED8FC000FE4EC /* math */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8D31A263ED910000FE4EC /* MyMath.cpp */,
+				F6A8D31B263ED910000FE4EC /* MyMath.hpp */,
+			);
+			path = math;
 			sourceTree = "<group>";
 		};
 		F6B9883226355F50002D5CB6 /* ctime */ = {
@@ -105,6 +117,7 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
+				F6A8D319263ED8FC000FE4EC /* math */,
 				F6A8D310263E2729000FE4EC /* logTest */,
 				F6822B6F2639C21F00438A90 /* print */,
 				F6B98838263598E1002D5CB6 /* guessGame */,
@@ -173,6 +186,7 @@
 				F6B988282635530D002D5CB6 /* PrintTime.cpp in Sources */,
 				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
 				F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */,
+				F6A8D31C263ED910000FE4EC /* MyMath.cpp in Sources */,
 				F6A8D313263E273D000FE4EC /* LogTest.cpp in Sources */,
 				F6822B722639C23E00438A90 /* Print.cpp in Sources */,
 			);

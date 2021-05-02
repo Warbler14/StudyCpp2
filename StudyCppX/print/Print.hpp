@@ -18,6 +18,8 @@ private:
     
 public:
     void start();
+    void stdIn();
+    void printArray();
         
     Print() {
         cout << "Print Start" << endl;

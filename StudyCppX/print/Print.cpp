@@ -16,6 +16,10 @@ string getDivisionTitle(string title, const char ch, int title_width);
 
 void Print::start() {
     //g++ main.cpp ./print/*.cpp -o main
+    cout << getDivisionTitle("test boolean", DEFAULT_DIVIDER, DEFAULT_WIDTH) << endl;
+    
+    cout << "true : " << true << endl;
+    cout << "false : " << false << endl;
     
     cout << getDivisionTitle("test I/O rePrint", DEFAULT_DIVIDER, DEFAULT_WIDTH) << endl;
     
@@ -58,6 +62,27 @@ void Print::start() {
 
     cout << "number : " << num << ", sz " << sz << ", &sz " << &sz << endl;
 
+}
+
+void Print::printArray() {
+    string cars[] = {"Volvo", "BMW", "Ford"};
+    
+    for (int idx = 0 ; idx < 3 ; idx++) {
+        string &car = cars[idx];
+        string _car = cars[idx];
+        cout << cars[idx] << " " << car << " " << _car << endl;
+    }
+}
+
+
+void Print::stdIn() {
+    cout << getDivisionTitle("message input test", DEFAULT_DIVIDER, DEFAULT_WIDTH) << endl;
+    
+    string message;
+    cout << "Type message : ";
+//    getline(cin, message);
+    cin >> message;
+    cout << "message is : " << message << endl;
 }
 
 string getDivisionTitle(string title, const char ch, const int title_width) {

@@ -16,6 +16,7 @@ using namespace std;
 class PrintTime {
 public:
     void print();
+    void print2();
     
     PrintTime() {
         cout << "Print Time" << endl;
