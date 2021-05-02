@@ -9,6 +9,8 @@
 #include "ctime/PrintTime.hpp"
 #include "guessGame/GuessGame.hpp"
 #include "print/Print.hpp"
+#include "logTest/LogTest.hpp"
+
 
 
 int main(int argc, const char * argv[]) {
@@ -22,6 +24,9 @@ int main(int argc, const char * argv[]) {
     
     Print print;
     print.start();
+    
+//    LogTest logTest;
+//    logTest.example01();
     
     
     return 0;
