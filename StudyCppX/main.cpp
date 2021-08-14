@@ -7,16 +7,16 @@
 
 #include <iostream>
 #include "ctime/PrintTime.hpp"
-#include "guessGame/GuessGame.hpp"
+#include "game/guessGame/GuessGame.hpp"
 #include "print/Print.hpp"
 #include "logTest/LogTest.hpp"
 #include "math/MyMath.hpp"
 
 
 int main(int argc, const char * argv[]) {
-    
-//    MyMath math;
-//    math.start();
+
+    MyMath math;
+    math.start();
     
 //    PrintTime printTime;
 //    printTime.print();
@@ -25,15 +25,16 @@ int main(int argc, const char * argv[]) {
 //    GuessGame guessGame;
 //    guessGame.start();
     
-    Print print;
+//    Print print;
 //    print.start();
 //    print.stdIn();
-    print.printArray();
+//    print.printArray();
+//    print.swapTest();
     
 //    LogTest logTest;
 //    logTest.example01();
     
     
-    
+//  https://www.cplusplus.com
     return 0;
 }
