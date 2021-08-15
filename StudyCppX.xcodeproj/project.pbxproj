@@ -98,6 +98,14 @@
 			path = guessGame;
 			sourceTree = "<group>";
 		};
+		F6E39B06268F4DC40070D287 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				F6B98838263598E1002D5CB6 /* guessGame */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
 		F6E5FCB12633170700FAB8FD = {
 			isa = PBXGroup;
 			children = (
@@ -117,10 +125,10 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
+				F6E39B06268F4DC40070D287 /* game */,
 				F6A8D319263ED8FC000FE4EC /* math */,
 				F6A8D310263E2729000FE4EC /* logTest */,
 				F6822B6F2639C21F00438A90 /* print */,
-				F6B98838263598E1002D5CB6 /* guessGame */,
 				F6B9883226355F50002D5CB6 /* ctime */,
 				F6B9881A26354FF5002D5CB6 /* main.cpp */,
 			);
@@ -153,7 +161,7 @@
 		F6E5FCB22633170700FAB8FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					F6E5FCB92633170700FAB8FD = {
 						CreatedOnToolsVersion = 12.4;
@@ -309,6 +317,7 @@
 		F6E5FCC22633170700FAB8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /Users/kook/workspaces/cwork/spdlog/include;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
@@ -319,6 +328,7 @@
 		F6E5FCC32633170700FAB8FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = /Users/kook/workspaces/cwork/spdlog/include;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
