@@ -9,11 +9,14 @@
 #define GuessGame_hpp
 
 #include <iostream>
+#include <ctime>
 
 using namespace std;
 
 class GuessGame {
 private:
+    int lowNumber;
+    int topNumber;
     int secretNum = 7;
     int guess;
     int guessCount = 0;
