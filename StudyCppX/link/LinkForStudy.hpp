@@ -8,6 +8,26 @@
 #ifndef LinkForStudy_hpp
 #define LinkForStudy_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <sstream>
+
+using namespace std;
+
+class LinkForStudy {
+private:
+    const int printNum = 10;
+    
+public:
+    //  https://www.cplusplus.com
+    
+    void execute();
+        
+    LinkForStudy() {
+        cout << "LinkForStudy Start" << endl;
+    }
+    
+};
 
 #endif /* LinkForStudy_hpp */

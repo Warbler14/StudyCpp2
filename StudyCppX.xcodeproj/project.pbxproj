@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60280972A04E82600C15B68 /* LinkForStudy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F60280952A04E82600C15B68 /* LinkForStudy.cpp */; };
+		F657D2F32B0661AB0049809D /* ExternTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F657D2F12B0661AB0049809D /* ExternTest.cpp */; };
 		F6822B722639C23E00438A90 /* Print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6822B702639C23E00438A90 /* Print.cpp */; };
 		F6A8D313263E273D000FE4EC /* LogTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A8D311263E273D000FE4EC /* LogTest.cpp */; };
 		F6A8D31C263ED910000FE4EC /* MyMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A8D31A263ED910000FE4EC /* MyMath.cpp */; };
@@ -28,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F60280952A04E82600C15B68 /* LinkForStudy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkForStudy.cpp; sourceTree = "<group>"; };
+		F60280962A04E82600C15B68 /* LinkForStudy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkForStudy.hpp; sourceTree = "<group>"; };
+		F657D2F12B0661AB0049809D /* ExternTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExternTest.cpp; sourceTree = "<group>"; };
+		F657D2F22B0661AB0049809D /* ExternTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExternTest.hpp; sourceTree = "<group>"; };
 		F6822B702639C23E00438A90 /* Print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print.cpp; sourceTree = "<group>"; };
 		F6822B712639C23E00438A90 /* Print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print.hpp; sourceTree = "<group>"; };
 		F6A8D311263E273D000FE4EC /* LogTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogTest.cpp; sourceTree = "<group>"; };
@@ -53,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F60280912A04E79700C15B68 /* link */ = {
+			isa = PBXGroup;
+			children = (
+				F60280952A04E82600C15B68 /* LinkForStudy.cpp */,
+				F60280962A04E82600C15B68 /* LinkForStudy.hpp */,
+			);
+			path = link;
+			sourceTree = "<group>";
+		};
+		F657D2F02B06617D0049809D /* externTest */ = {
+			isa = PBXGroup;
+			children = (
+				F657D2F12B0661AB0049809D /* ExternTest.cpp */,
+				F657D2F22B0661AB0049809D /* ExternTest.hpp */,
+			);
+			path = externTest;
+			sourceTree = "<group>";
+		};
 		F6822B6F2639C21F00438A90 /* print */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +149,8 @@
 		F6E5FCBC2633170700FAB8FD /* StudyCppX */ = {
 			isa = PBXGroup;
 			children = (
+				F657D2F02B06617D0049809D /* externTest */,
+				F60280912A04E79700C15B68 /* link */,
 				F6E39B06268F4DC40070D287 /* game */,
 				F6A8D319263ED8FC000FE4EC /* math */,
 				F6A8D310263E2729000FE4EC /* logTest */,
@@ -195,6 +221,8 @@
 				F6B9881B26354FF5002D5CB6 /* main.cpp in Sources */,
 				F6B9883B26359906002D5CB6 /* GuessGame.cpp in Sources */,
 				F6A8D31C263ED910000FE4EC /* MyMath.cpp in Sources */,
+				F60280972A04E82600C15B68 /* LinkForStudy.cpp in Sources */,
+				F657D2F32B0661AB0049809D /* ExternTest.cpp in Sources */,
 				F6A8D313263E273D000FE4EC /* LogTest.cpp in Sources */,
 				F6822B722639C23E00438A90 /* Print.cpp in Sources */,
 			);
@@ -319,7 +347,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = /Users/kook/workspaces/cwork/spdlog/include;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/spdlog/1.11.0/include/,
+					/usr/local/Cellar/fmt/9.1.0/include/,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -330,7 +361,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = /Users/kook/workspaces/cwork/spdlog/include;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/spdlog/1.11.0/include/,
+					/usr/local/Cellar/fmt/9.1.0/include/,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

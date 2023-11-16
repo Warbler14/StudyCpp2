@@ -74,6 +74,30 @@ void Print::printArray() {
     }
 }
 
+void swap(int &x, int&y) {
+    int z = x;
+    x = y;
+    y = z;
+}
+
+void swap(long &x, long&y) {
+    long z = x;
+    x = y;
+    y = z;
+}
+
+void Print::swapTest() {
+    int x = 10;
+    int y = 20;
+    swap(x, y);
+    cout << x << y << endl;
+    
+    long xl = 1000;
+    long yl = 2000;
+    
+    swap(xl, yl);
+    cout << xl << yl << endl;
+}
 
 void Print::stdIn() {
     cout << getDivisionTitle("message input test", DEFAULT_DIVIDER, DEFAULT_WIDTH) << endl;

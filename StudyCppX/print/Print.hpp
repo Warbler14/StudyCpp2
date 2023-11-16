@@ -20,6 +20,7 @@ public:
     void start();
     void stdIn();
     void printArray();
+    void swapTest();
         
     Print() {
         cout << "Print Start" << endl;

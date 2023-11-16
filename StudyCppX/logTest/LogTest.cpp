@@ -8,7 +8,7 @@
 #include "LogTest.hpp"
 
 void LogTest::example01() {
-    
+    /*
     spdlog::info("Welcome to spdlog!");
     spdlog::error("Some error message with arg: {}", 1);
     
@@ -30,11 +30,13 @@ void LogTest::example01() {
     SPDLOG_DEBUG("Some debug message");
     
     spdlog::get(logger_name)->info("some text");
-    
+    */
 }
 
 void LogTest::stopwatch() {
+    /*
     spdlog::stopwatch sw;
     spdlog::debug("Elapsed {}", sw);
     spdlog::debug("Elapsed {:.3}", sw);
+     */
 }

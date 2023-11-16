@@ -10,9 +10,9 @@
 
 #include <iostream>
 #include <string>
-#include <spdlog/spdlog.h>
-#include <spdlog/sinks/basic_file_sink.h>
-#include <spdlog/stopwatch.h>
+//#include <spdlog/spdlog.h>  //brew install spdlog
+//#include <spdlog/sinks/basic_file_sink.h>
+//#include <spdlog/stopwatch.h>
 
 using namespace std;
 
@@ -27,7 +27,7 @@ public:
     void stopwatch();
     
     LogTest() {
-        
+        /*
         try {
             auto logger = spdlog::basic_logger_mt(logger_name, filename);
         
@@ -44,6 +44,7 @@ public:
         
         
         // https://spdlog.docsforge.com
+        */
     }
     
     

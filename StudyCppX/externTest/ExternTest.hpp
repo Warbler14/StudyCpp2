@@ -8,6 +8,22 @@
 #ifndef ExternTest_hpp
 #define ExternTest_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+extern int externVariable;
+
+class ExternTest {
+public:
+    void execute();
+
+    void setExternVariable(int number);
+    
+    ExternTest() {
+        cout << "ExternTest Start" << endl;
+    }
+};
 
 #endif /* ExternTest_hpp */
